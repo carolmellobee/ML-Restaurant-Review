@@ -1,0 +1,17 @@
+# core analysis
+numpy>=2.0
+pandas>=2.2
+scipy>=1.13
+scikit-learn>=1.5
+statsmodels>=0.14.2
+matplotlib>=3.9
+pyarrow>=16
+vaderSentiment>=3.3.2
+# notebooks
+jupyter
+nbconvert>=7.16
+ipykernel>=6.29
+# LLM review generation (optional: only needed for scripts/generate_reviews_llm.py)
+anthropic>=0.40
+# tests
+pytest>=8
